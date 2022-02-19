@@ -2,9 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: twilio-python
+  description: A Python module for communicating with the Twilio API and generating TwiML.
+  tags: 
+    - python
+    - sms
+    - twilio
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/twilio-python
 spec:
-  type: other
-  lifecycle: unknown
+  type: sms
+  lifecycle: dev
   owner: devsecops
+  system: python
